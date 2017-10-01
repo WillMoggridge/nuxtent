@@ -4,6 +4,8 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const _a97cb21a = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _0716b60e = () => import('../pages/categories/index.vue' /* webpackChunkName: "pages/categories/index" */).then(m => m.default || m)
+const _056014c6 = () => import('../pages/categories/_slug.vue' /* webpackChunkName: "pages/categories/_slug" */).then(m => m.default || m)
 const _ace9f4aa = () => import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */).then(m => m.default || m)
 
 
@@ -44,6 +46,16 @@ export function createRouter () {
 			path: "/",
 			component: _a97cb21a,
 			name: "index"
+		},
+		{
+			path: "/categories",
+			component: _0716b60e,
+			name: "categories"
+		},
+		{
+			path: "/categories/:slug",
+			component: _056014c6,
+			name: "categories-slug"
 		},
 		{
 			path: "/:slug",

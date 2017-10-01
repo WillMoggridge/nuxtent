@@ -1,7 +1,10 @@
 {
   "title": "Markdown Component Demo!",
+  "categories": [
+    "cat1"
+  ],
   "meta": {
-    "index": 0,
+    "index": 2,
     "fileName": "HelloWorld.comp.md",
     "section": "/",
     "dirName": "/",

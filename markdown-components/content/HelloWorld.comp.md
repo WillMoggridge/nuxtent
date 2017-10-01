@@ -1,5 +1,7 @@
 ---
 title: Markdown Component Demo!
+categories:
+  - cat1
 ---
 
 ### Here's my demo:
