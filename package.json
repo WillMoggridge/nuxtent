@@ -1,0 +1,12 @@
+{
+  "name": "Nuxtent Example",
+  "version": "0.0.1",
+  "description": "Nuxt.js with Nuxtent Examples",
+  "license": "MIT",
+  "author": "David Royer",
+  "repository": "https://github.com/davidroyer/nuxtent",
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
