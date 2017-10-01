@@ -1,4 +1,4 @@
 [build]
   base = "markdown-components"
   command = "yarn generate"
-  publish = "dist"
+  publish = "markdown-components/dist"
