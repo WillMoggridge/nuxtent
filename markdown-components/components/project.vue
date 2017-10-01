@@ -1,5 +1,8 @@
 <template>
-  <div> <h1> {{ name || 'Hello World!!' }}</h1></div>
+  <div>
+    <h1>This is in the component Project</h1>
+    {{name}}
+  </div>
 </template>
 
 

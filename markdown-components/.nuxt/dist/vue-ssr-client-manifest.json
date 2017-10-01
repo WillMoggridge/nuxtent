@@ -5,24 +5,24 @@
     "pages/_slug.b47082220d1c21ff26ab.js",
     "layouts/default.7a5b6909d52534ca6796.js",
     "common.f16dea25725f526bf82a.js",
-    "app.1a53288227e6a3337ac8.js",
-    "manifest.77c3a3588f7e6f4b85c7.js",
+    "app.96df70b5eeb22b9cb646.js",
+    "manifest.bdd15d785ff9c5061e33.js",
     "LICENSES",
     "pages/_slug.b47082220d1c21ff26ab.js.map",
     "pages/index.98f684b173247087fa05.js",
     "layouts/default.7a5b6909d52534ca6796.js.map",
     "common.f16dea25725f526bf82a.js.map",
-    "app.1a53288227e6a3337ac8.js.map",
-    "manifest.77c3a3588f7e6f4b85c7.js.map",
+    "app.96df70b5eeb22b9cb646.js.map",
+    "manifest.bdd15d785ff9c5061e33.js.map",
     "content/hello-world.json",
     "content/_all.json",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.77c3a3588f7e6f4b85c7.js",
+    "manifest.bdd15d785ff9c5061e33.js",
     "common.f16dea25725f526bf82a.js",
-    "app.1a53288227e6a3337ac8.js"
+    "app.96df70b5eeb22b9cb646.js"
   ],
   "async": [
     "pages/_slug.b47082220d1c21ff26ab.js",
