@@ -73,7 +73,7 @@ function errorHandler(error, ctx) {
 
 // Setup BaseURL
 const baseURL = process.browser
-  ? (process.env.API_URL_BROWSER || '/_nuxt/content')
+  ? (process.env.API_URL_BROWSER || '/content-api')
   : (process.env.API_URL || 'http://localhost:3000/content-api')
 
 // Custom init hook

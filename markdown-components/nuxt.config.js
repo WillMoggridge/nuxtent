@@ -1,35 +1,28 @@
 const axios = require('axios')
+console.log(axios);
+var _ = require('lodash');
+// var RoutesArray = []
 
 module.exports = {
   modules: ['nuxtent'],
   generate: {
+    routes () {
+      return axios.get('https://jsonplaceholder.typicode.com/posts')
+        .then((res) => {
+          var RoutesArray = []
+          res.data.forEach((post) => {
+            RoutesArray.push('/article/' + post.slug)
+          })
+          return RoutesArray
+        })
+    }
     // routes: function () {
     //   return axios.get('http://localhost:3000/content-api')
     //   .then((res) => {
-    //     return res.data.map((user) => {
-    //       return '/users/' + user.id
+    //     return res.data.map((post) => {
+    //       return '/posts/' + post.slug
     //     })
     //   })
-    // }
-    routes: [
-      'categories/cat1',
-      'categories/cat2'
-    ]
-    // routes: function () {
-    //   var RoutesArray = []
-    //
-    //   return axios.get('http://localhost:3000/content-api')
-    //   .then((res) => {
-    //     var Posts = res.data
-    //     return Posts.map((post) => {
-    //       return '/categories/' + post.slug
-    //       // return post.categories.map((category) => {
-    //       //   RoutesArray.push(category)
-    //       // })
-    //     })
-    //
-    //   })
-    //   // return RoutesArray
     // }
   }
 }
