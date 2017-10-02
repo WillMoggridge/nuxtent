@@ -1,28 +1,19 @@
 const axios = require('axios')
 console.log(axios);
 var _ = require('lodash');
-// var RoutesArray = []
+var CategoriesArray = ['/categories/cat1', '/categories/cat2']
 
 module.exports = {
   modules: ['nuxtent'],
-  generate: {
-    routes () {
-      return axios.get('https://jsonplaceholder.typicode.com/posts')
-        .then((res) => {
-          var RoutesArray = []
-          res.data.forEach((post) => {
-            RoutesArray.push('/article/' + post.slug)
-          })
-          return RoutesArray
-        })
+  nuxtent: {
+    content: {
+      page: '/_slug',
+      permalink: '/:slug',
+      isPost: false,
+      generate: ['get', 'getAll']
     }
-    // routes: function () {
-    //   return axios.get('http://localhost:3000/content-api')
-    //   .then((res) => {
-    //     return res.data.map((post) => {
-    //       return '/posts/' + post.slug
-    //     })
-    //   })
-    // }
+  },
+  generate: {
+    routes: CategoriesArray
   }
 }

@@ -1,0 +1,20 @@
+{
+  "title": "Markdown Component Demo!",
+  "categories": [
+    "cat1"
+  ],
+  "meta": {
+    "index": 2,
+    "fileName": "HelloWorld.comp.md",
+    "section": "/",
+    "dirName": "/",
+    "filePath": "/Users/droyer/Playground/nuxtent/markdown-components/content/HelloWorld.comp.md"
+  },
+  "date": "10-01-2017",
+  "path": "/hello-world",
+  "permalink": "/hello-world",
+  "anchors": [],
+  "body": {
+    "relativePath": "./HelloWorld.comp.md"
+  }
+}
